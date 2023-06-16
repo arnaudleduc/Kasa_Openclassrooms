@@ -4,6 +4,7 @@ import Carrousel from '../../components/Carrousel';
 import Tag from '../../components/Tag';
 import Host from '../../components/Host';
 import Rating from '../../components/Rating';
+import Collapse from '../../components/Collapse';
 import '../../styles/LocationPage.css';
 
 function Location() {
@@ -26,6 +27,7 @@ function Location() {
           <Rating ratingValue={locationData.rating} />
         </div>
       </div>
+      <Collapse title="test" />
     </div>
   )
 }

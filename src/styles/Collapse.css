@@ -1,0 +1,18 @@
+.kasa-collapse {
+  background-color: #ff6060;
+  max-width: 1100px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.kasa-collapse-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 15px;
+  cursor: pointer;
+}

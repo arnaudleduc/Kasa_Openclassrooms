@@ -1,0 +1,22 @@
+.kasa-navbar {
+  display: flex;
+}
+
+.kasa-navbar-home,
+.kasa-navbar-about {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff6060;
+}
+
+.kasa-navbar-home:hover,
+.kasa-navbar-about:hover,
+.kasa-navbar-home:focus,
+.kasa-navbar-about:focus {
+  text-decoration: underline;
+}
+
+.kasa-navbar-about {
+  margin-left: 57px;
+}

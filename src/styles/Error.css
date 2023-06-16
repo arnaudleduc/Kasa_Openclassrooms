@@ -1,0 +1,26 @@
+.kasa-error-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kasa-error-page-title {
+  color: #ff6060;
+  font-size: 288px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.kasa-error-page-subtitle {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 30px 0 182px 0;
+}
+
+.kasa-error-page-redirect {
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 159px;
+}

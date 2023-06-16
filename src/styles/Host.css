@@ -1,0 +1,20 @@
+.kasa-host {
+  width: 167px;
+  display: flex;
+  align-items: center;
+}
+
+.kasa-host-name {
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 10px;
+  line-height: 25px;
+}
+
+.kasa-host-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}

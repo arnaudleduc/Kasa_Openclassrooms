@@ -1,0 +1,36 @@
+.kasa-location {
+  margin: 0 100px;
+}
+
+.kasa-location-carrousel-container {
+  width: 1240px;
+  height: 415px;
+  margin: 0 auto 24px auto;
+}
+
+.kasa-location-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.kasa-location-title {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.kasa-location-subtitle {
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.kasa-location-host-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

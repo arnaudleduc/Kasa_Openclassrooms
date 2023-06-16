@@ -2,6 +2,7 @@
   width: 167px;
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .kasa-host-name {

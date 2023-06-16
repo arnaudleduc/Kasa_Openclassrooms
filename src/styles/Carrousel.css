@@ -1,0 +1,35 @@
+.kasa-carrousel {
+  height: 100%;
+  position: relative;
+}
+
+.kasa-carrousel-picture-number {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+
+.kasa-carrousel-arrow-left {
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 23px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.kasa-carrousel-arrow-right {
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 23px;
+  z-index: 1;
+  cursor: pointer;
+}

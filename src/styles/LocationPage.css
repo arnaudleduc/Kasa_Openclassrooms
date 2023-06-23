@@ -34,3 +34,8 @@
   flex-direction: column;
   align-items: flex-end;
 }
+
+.kasa-location-details {
+  display: flex;
+  justify-content: space-between;
+}

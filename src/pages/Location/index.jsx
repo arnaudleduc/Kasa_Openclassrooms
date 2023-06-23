@@ -27,7 +27,10 @@ function Location() {
           <Rating ratingValue={locationData.rating} />
         </div>
       </div>
-      <Collapse title="test" />
+      <div className="kasa-location-details">
+        <Collapse title="Description" content={locationData.description} isToggled />
+        <Collapse title="Equipements" content={locationData.equipments} isToggled />
+      </div>
     </div>
   )
 }

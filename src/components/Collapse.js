@@ -2,24 +2,25 @@ import arrow from '../assets/ARROW.png';
 import { useState } from 'react';
 import '../styles/Collapse.css';
 
-export default function Collapse({title, content}) {
+export default function Collapse({title, content, isToggled, about}) {
+  const [toggle, setToggle] = useState(isToggled);
 
-    const [toggle, setToggle] = useState(false);
-
-    return (
-      <div className="kasa-collapse" >
-        <h3 className="kasa-collapse-title" onClick={() => setToggle(!toggle)} >
+  return (
+    <div className={about ? "kasa-collapse" : "kasa-collapse-location"} >
+      <div className={about ? "kasa-collapse-headband" : "kasa-collapse-headband-location"} onClick={() => setToggle(!toggle)}>
+        <h3 className={about ? "kasa-collapse-title" : "kasa-collapse-title-location"} >
           {title}
-          <img src={arrow} className={toggle ? 'kasa-collapse-arrow kasa-collapse-arrow_up' : 'kasa-collapse-arrow arrow_down'} alt="Contenu déroulant" />
         </h3>
-        <div className={toggle ? 'kasa-collapse_content' : 'kasa-collapse_content_hidden'}>
-          {Array.isArray(content) ? content.map((item, index) => {
-              return (
-                  <p key={index}>{item}</p>
-              )
-          }) : content
-          }
-        </div> 
+        <img src={arrow} className={toggle ? "kasa-collapse-arrow kasa-collapse-arrow-up" : "kasa-collapse-arrow arrow-down"} alt="Contenu déroulant" />
       </div>
-    )
+      <div className={toggle ? "kasa-collapse-content-show" : "kasa-collapse-content-hide"}>
+        {Array.isArray(content) ? content.map((item, index) => {
+            return (
+                <p className="kasa-collapse-content-show-elements" key={index}>{item}</p>
+            )
+        }) : content
+        }
+      </div> 
+    </div>
+  )
 }

@@ -1,18 +1,81 @@
 .kasa-collapse {
-  background-color: #ff6060;
-  max-width: 1100px;
-  border-radius: 5px;
+  width: 1023px;
   margin: 0 auto;
 }
 
-.kasa-collapse-title {
+.kasa-collapse-location {
+  width: 582px;
+}
+
+.kasa-collapse-headband {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 47px;
+  padding: 0 18px;
+  background-color: #ff6060;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.kasa-collapse-headband-location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  padding: 0 20px;
+  background-color: #ff6060;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.kasa-collapse-title {
   color: #ffffff;
   font-size: 24px;
   font-weight: 500;
-  padding: 10px 15px;
-  cursor: pointer;
+  margin: 0;
+}
+
+.kasa-collapse-title-location {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.kasa-collapse-arrow {
+  transition: all 0.2s ease-in-out;
+}
+
+.kasa-collapse-arrow-up {
+  transform: rotate(180deg);
+}
+
+.kasa-collapse-arrow-down {
+  transform: rotate(180deg);
+}
+
+.kasa-collapse-content-show {
+  background-color: #f6f6f6;
+  opacity: 1;
+  height: auto;
+  visibility: visible;
+  padding: 27px 18px 19px 18px;
+  font-size: 24px;
+  color: #ff6060;
+  margin-bottom: 33px;
+  border-radius: 10px;
+}
+
+.kasa-collapse-content-show-elements {
+  margin: 0 0 6px 0;
+}
+
+.kasa-collapse-content-hide {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  margin-bottom: 14px;
 }

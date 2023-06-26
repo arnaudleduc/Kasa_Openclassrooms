@@ -8,9 +8,10 @@ import Collapse from '../../components/Collapse';
 import '../../styles/LocationPage.css';
 
 function Location() {
-  const { locationId } = useParams();
+  const { locationId } = useParams()
   const locationData = locationList.find(element => element.id === locationId )
 
+  //Condition d'existence de l'ID (if n'existe pas, renoyer vers 404) hook : useNavigate
   return (
     <div className="kasa-location">
       <div className="kasa-location-carrousel-container">

@@ -8,6 +8,11 @@
   font-size: 24px;
   font-weight: 500;
   color: #ff6060;
+
+  @media screen and (max-width: 376px) {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }
 
 .kasa-navbar-home:hover,
@@ -19,4 +24,8 @@
 
 .kasa-navbar-about {
   margin-left: 57px;
+
+  @media screen and (max-width: 376px) {
+    margin-left: 12px;
+  }
 }

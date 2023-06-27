@@ -8,7 +8,7 @@
   background-color: #f6f6f6;
   border-radius: 25px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     margin: 0 20px;
     padding: 0;
     justify-content: space-between;
@@ -24,7 +24,7 @@
   margin-bottom: 50px;
   list-style-type: none;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     width: 100%;
     height: 255px;
     margin-bottom: 20px;

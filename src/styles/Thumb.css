@@ -24,7 +24,7 @@
   );
   border-radius: 10px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     height: 255px;
   }
 }
@@ -35,7 +35,7 @@
   object-fit: cover;
   border-radius: 10px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     height: 255px;
   }
 }

@@ -13,7 +13,7 @@
   font-weight: 500;
   letter-spacing: -2px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     display: none;
   }
 }
@@ -25,7 +25,7 @@
   background-position: center;
   background-size: cover;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     border-radius: 10px;
   }
 }
@@ -39,7 +39,7 @@
   z-index: 1;
   cursor: pointer;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     height: 20px;
     left: 6px;
   }
@@ -54,7 +54,7 @@
   z-index: 1;
   cursor: pointer;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     height: 20px;
     right: 6px;
   }

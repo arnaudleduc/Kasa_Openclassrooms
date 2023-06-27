@@ -4,7 +4,7 @@
   align-items: center;
   margin-bottom: 15px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     width: 30%;
     margin-bottom: 0px;
   }
@@ -18,7 +18,7 @@
   margin-right: 10px;
   line-height: 25px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     width: 75px;
     font-size: 12px;
     line-height: 18px;
@@ -31,7 +31,7 @@
   height: 64px;
   border-radius: 50%;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     width: 32px;
     height: 32px;
   }

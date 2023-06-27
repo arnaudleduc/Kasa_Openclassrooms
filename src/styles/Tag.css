@@ -4,7 +4,7 @@
   list-style-type: none;
   padding: 0;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     flex-wrap: wrap;
   }
 }
@@ -12,7 +12,7 @@
 .kasa-location-tag-list {
   margin-right: 10px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     margin-bottom: 10px;
   }
 }
@@ -25,7 +25,7 @@
   border-radius: 10px;
   padding: 3px 22px;
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 375px) {
     font-size: 10px;
     border-radius: 5px;
   }

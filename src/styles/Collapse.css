@@ -1,6 +1,10 @@
 .kasa-collapse {
   width: 1023px;
   margin: 0 auto;
+
+  @media screen and (max-width: 375px) {
+    width: 100%;
+  }
 }
 
 .kasa-collapse-location {
@@ -21,6 +25,12 @@
   background-color: #ff6060;
   border-radius: 5px;
   cursor: pointer;
+
+  @media screen and (max-width: 375px) {
+    height: 30px;
+    padding: 0 11px;
+    border-radius: 5px;
+  }
 }
 
 .kasa-collapse-headband-location {
@@ -46,6 +56,10 @@
   font-size: 24px;
   font-weight: 500;
   margin: 0;
+
+  @media screen and (max-width: 375px) {
+    font-size: 13px;
+  }
 }
 
 .kasa-collapse-title-location {

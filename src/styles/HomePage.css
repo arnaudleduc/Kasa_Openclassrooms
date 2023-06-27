@@ -1,0 +1,7 @@
+.kasa-home {
+  margin: 0 100px;
+
+  @media screen and (max-width: 375px) {
+    margin: 0 20px;
+  }
+}

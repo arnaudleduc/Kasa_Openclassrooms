@@ -4,9 +4,9 @@ import '../styles/Banner.css'
 
 function Banner({about}) {
   return (
-    <div className="kasa-home-banner">
+    <div className={about ? "kasa-about-banner" : "kasa-home-banner"}>
       <div className="kasa-home-banner-background"></div>
-      <img src={about ? aboutBanner : homeBanner} alt="Falaise en bord de mer" className="kasa-home-banner-img" />
+      <img src={about ? aboutBanner : homeBanner} alt="Falaise en bord de mer" className={about ? "kasa-about-banner-img" : "kasa-home-banner-img"} />
       <div className={!about ? "kasa-home-banner-text" : "kasa-home-hide-banner-text"}>Chez vous, partout et ailleurs</div>
     </div>
   )

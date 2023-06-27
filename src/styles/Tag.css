@@ -3,10 +3,18 @@
   flex-direction: row;
   list-style-type: none;
   padding: 0;
+
+  @media screen and (max-width: 376px) {
+    flex-wrap: wrap;
+  }
 }
 
 .kasa-location-tag-list {
   margin-right: 10px;
+
+  @media screen and (max-width: 376px) {
+    margin-bottom: 10px;
+  }
 }
 
 .kasa-location-tag-list-element {
@@ -16,4 +24,9 @@
   background-color: #ff6060;
   border-radius: 10px;
   padding: 3px 22px;
+
+  @media screen and (max-width: 376px) {
+    font-size: 10px;
+    border-radius: 5px;
+  }
 }

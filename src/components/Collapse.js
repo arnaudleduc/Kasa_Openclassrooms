@@ -14,12 +14,14 @@ export default function Collapse({title, content, isToggled, about}) {
         <img src={arrow} className={toggle ? "kasa-collapse-arrow kasa-collapse-arrow-up" : "kasa-collapse-arrow arrow-down"} alt="Contenu déroulant" />
       </div>
       <div className={toggle ? "kasa-collapse-content-show" : "kasa-collapse-content-hide"}>
-        {Array.isArray(content) ? content.map((item, index) => {
-            return (
-                <p className="kasa-collapse-content-show-elements" key={index}>{item}</p>
-            )
-        }) : content
-        }
+        <p className="kasa-collapse-content-show-elements">
+          {Array.isArray(content) ? content.map((item, index) => {
+              return (
+                  <p className="kasa-collapse-content-show-elements-list" key={index}>{item}</p>
+              )
+          }) : content
+          }
+        </p>
       </div> 
     </div>
   )

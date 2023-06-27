@@ -5,6 +5,10 @@
 
 .kasa-collapse-location {
   width: 582px;
+
+  @media screen and (max-width: 376px) {
+    width: 100%;
+  }
 }
 
 .kasa-collapse-headband {
@@ -29,6 +33,12 @@
   background-color: #ff6060;
   border-radius: 10px;
   cursor: pointer;
+
+  @media screen and (max-width: 376px) {
+    height: 30px;
+    padding: 0 11px;
+    border-radius: 5px;
+  }
 }
 
 .kasa-collapse-title {
@@ -43,10 +53,18 @@
   font-size: 18px;
   font-weight: 500;
   margin: 0;
+
+  @media screen and (max-width: 376px) {
+    font-size: 13px;
+  }
 }
 
 .kasa-collapse-arrow {
   transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 376px) {
+    height: 9px;
+  }
 }
 
 .kasa-collapse-arrow-up {
@@ -60,30 +78,47 @@
 .kasa-collapse-content-show {
   background-color: #f6f6f6;
   opacity: 1;
-  height: 250px;
+  max-height: 250px;
   visibility: visible;
-  padding: 27px 18px 19px 18px;
-  font-size: 24px;
-  color: #ff6060;
   margin-bottom: 33px;
   border-radius: 10px;
-  transition: height 0.5s ease-in-out, visibility 0.5s 0.3s ease-in-out,
-    opacity 0.5s 0.3s ease-in-out;
+  transition: max-height 0.5s ease-in-out, visibility 0.5s ease-in-out,
+    opacity 0.5s ease-in-out;
+
+  @media screen and (max-width: 376px) {
+    margin-bottom: 20px;
+  }
 }
 
 .kasa-collapse-content-show-elements {
   margin: 0 0 6px 0;
+  padding: 27px 18px 19px 18px;
+  font-size: 24px;
+  color: #ff6060;
+
+  @media screen and (max-width: 376px) {
+    padding: 17px 11px 10px 11px;
+    font-size: 12px;
+  }
+}
+
+.kasa-collapse-content-show-elements-list {
+  margin: 0;
+  margin-bottom: 4px;
 }
 
 .kasa-collapse-content-hide {
   background-color: #f6f6f6;
   opacity: 0;
-  height: 0px;
+  max-height: 0px;
   visibility: hidden;
-  padding: 27px 18px 19px 18px;
   font-size: 24px;
   color: #ff6060;
   margin-bottom: 33px;
-  transition: height 0.5s 0.3s ease-in-out, visibility 0.5s ease-in-out,
+  transition: max-height 0.5s ease-in-out, visibility 0.5s ease-in-out,
     opacity 0.5s ease-in-out;
+
+  @media screen and (max-width: 376px) {
+    margin-bottom: 20px;
+  }
 }

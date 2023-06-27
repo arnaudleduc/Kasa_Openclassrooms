@@ -1,11 +1,21 @@
 .kasa-location {
   margin: 0 100px;
+
+  @media screen and (max-width: 376px) {
+    margin: 0 20px;
+  }
 }
 
 .kasa-location-carrousel-container {
   width: 1240px;
   height: 415px;
   margin: 0 auto 24px auto;
+
+  @media screen and (max-width: 376px) {
+    height: 255px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
 
 .kasa-location-info-container {
@@ -13,6 +23,12 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 24px;
+
+  @media screen and (max-width: 376px) {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 17px;
+  }
 }
 
 .kasa-location-title {
@@ -20,6 +36,11 @@
   font-size: 36px;
   font-weight: 500;
   margin: 0;
+
+  @media screen and (max-width: 376px) {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
 }
 
 .kasa-location-subtitle {
@@ -27,15 +48,32 @@
   font-size: 18px;
   font-weight: 500;
   margin: 0 0 20px 0;
+
+  @media screen and (max-width: 376px) {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }
 
 .kasa-location-host-container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+
+  @media screen and (max-width: 376px) {
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .kasa-location-details {
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 376px) {
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }

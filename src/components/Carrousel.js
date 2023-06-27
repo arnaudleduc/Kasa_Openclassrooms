@@ -8,13 +8,10 @@ function Carrousel({ pictures }) {
   const [ currentIndex, setCurrentIndex ] = useState(0)
 
   const picturesStyle = {
-    width: '100%',
-    height: '100%',
-    borderRadius: '25px',
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
     backgroundImage: `url(${pictures[currentIndex]})`,
   }
+
+  const onlyOnePicture = pictures.length === 1 ? {display: 'none'} : {display: 'block'};
 
   const goToPreviousImg = () => {
     const isFirstPicture = currentIndex === 0
@@ -31,11 +28,11 @@ function Carrousel({ pictures }) {
   return (
     <div className="kasa-carrousel">
       <span className="kasa-carrousel-picture-number">{ `${currentIndex + 1} / ${pictures.length}` }</span>
-      <img src={arrowLeft} alt="Flèche directionnelle" className="kasa-carrousel-arrow-left" onClick={goToPreviousImg} />
+      <img style={onlyOnePicture} src={arrowLeft} alt="Flèche directionnelle" className="kasa-carrousel-arrow-left" onClick={goToPreviousImg} />
       <div
-        style={picturesStyle}
+        style={picturesStyle} className="kasa-carrousel-image-container"
       ></div>
-      <img src={arrowRight} alt="Flèche directionnelle" className="kasa-carrousel-arrow-right" onClick={goToNextImg} />
+      <img style={onlyOnePicture} src={arrowRight} alt="Flèche directionnelle" className="kasa-carrousel-arrow-right" onClick={goToNextImg} />
     </div>
   )
 }

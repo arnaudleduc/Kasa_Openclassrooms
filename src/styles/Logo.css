@@ -1,6 +1,10 @@
 .kasa-header-logo {
   width: 210px;
 
+  @media screen and (max-width: 768px) {
+    width: 178px;
+  }
+
   @media screen and (max-width: 375px) {
     width: 145px;
   }

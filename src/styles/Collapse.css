@@ -1,5 +1,5 @@
 .kasa-collapse {
-  width: 1023px;
+  width: 100%;
   margin: 0 auto;
 
   @media screen and (max-width: 768px) {
@@ -8,7 +8,7 @@
 }
 
 .kasa-collapse-location {
-  width: 582px;
+  width: 48%;
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -58,6 +58,10 @@
   margin: 0;
 
   @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 375px) {
     font-size: 13px;
   }
 }
@@ -69,6 +73,10 @@
   margin: 0;
 
   @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 375px) {
     font-size: 13px;
   }
 }
@@ -112,6 +120,11 @@
 
   @media screen and (max-width: 768px) {
     padding: 17px 11px 10px 11px;
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 375px) {
+    padding: 17px 11px 10px 11px;
     font-size: 12px;
   }
 }
@@ -126,8 +139,6 @@
   opacity: 0;
   max-height: 0px;
   visibility: hidden;
-  font-size: 24px;
-  color: #ff6060;
   margin-bottom: 33px;
   transition: max-height 0.5s ease-in-out, visibility 0.5s ease-in-out,
     opacity 0.5s ease-in-out;

@@ -5,6 +5,10 @@
   align-items: center;
   justify-content: space-between;
 
+  @media screen and (max-width: 768px) {
+    margin: 0 30px;
+  }
+
   @media screen and (max-width: 375px) {
     height: 83px;
     margin: 0 20px;

@@ -8,6 +8,12 @@
   background-color: #f6f6f6;
   border-radius: 25px;
 
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+
   @media screen and (max-width: 375px) {
     padding: 0;
     justify-content: space-between;
@@ -22,6 +28,11 @@
   height: 340px;
   margin-bottom: 50px;
   list-style-type: none;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
 
   @media screen and (max-width: 375px) {
     width: 100%;

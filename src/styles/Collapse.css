@@ -2,7 +2,7 @@
   width: 1023px;
   margin: 0 auto;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
   }
 }
@@ -10,7 +10,7 @@
 .kasa-collapse-location {
   width: 582px;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
   }
 }
@@ -26,7 +26,7 @@
   border-radius: 5px;
   cursor: pointer;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     height: 30px;
     padding: 0 11px;
     border-radius: 5px;
@@ -44,7 +44,7 @@
   border-radius: 10px;
   cursor: pointer;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     height: 30px;
     padding: 0 11px;
     border-radius: 5px;
@@ -57,7 +57,7 @@
   font-weight: 500;
   margin: 0;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     font-size: 13px;
   }
 }
@@ -68,7 +68,7 @@
   font-weight: 500;
   margin: 0;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     font-size: 13px;
   }
 }
@@ -76,7 +76,7 @@
 .kasa-collapse-arrow {
   transition: all 0.2s ease-in-out;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     height: 9px;
   }
 }
@@ -99,7 +99,7 @@
   transition: max-height 0.5s ease-in-out, visibility 0.5s ease-in-out,
     opacity 0.5s ease-in-out;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 20px;
   }
 }
@@ -110,7 +110,7 @@
   font-size: 24px;
   color: #ff6060;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     padding: 17px 11px 10px 11px;
     font-size: 12px;
   }
@@ -132,7 +132,7 @@
   transition: max-height 0.5s ease-in-out, visibility 0.5s ease-in-out,
     opacity 0.5s ease-in-out;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 20px;
   }
 }

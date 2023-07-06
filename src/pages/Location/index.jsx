@@ -12,7 +12,7 @@ function Location() {
   const { locationId } = useParams()
   const navigate = useNavigate();
   const locationData = locationList.find(element => element.id === locationId )
-  
+
   useEffect(() => {
     if (locationData === undefined) {
       navigate('/404', { state: { message: "URL non valide" }});

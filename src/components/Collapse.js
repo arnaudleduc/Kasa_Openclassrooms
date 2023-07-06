@@ -5,9 +5,10 @@ import '../styles/Collapse.css';
 export default function Collapse({title, content, isToggled, about}) {
   const [toggle, setToggle] = useState(isToggled);
 
+  const handleToggle = () => setToggle(!toggle)
   return (
     <div className={about ? "kasa-collapse" : "kasa-collapse-location"} >
-      <div className={about ? "kasa-collapse-headband" : "kasa-collapse-headband-location"} onClick={() => setToggle(!toggle)}>
+      <div className={about ? "kasa-collapse-headband" : "kasa-collapse-headband-location"} onClick={handleToggle}>
         <h3 className={about ? "kasa-collapse-title" : "kasa-collapse-title-location"} >
           {title}
         </h3>
@@ -17,7 +18,7 @@ export default function Collapse({title, content, isToggled, about}) {
         <p className="kasa-collapse-content-show-elements">
           {Array.isArray(content) ? content.map((item, index) => {
               return (
-                  <p className="kasa-collapse-content-show-elements-list" key={index}>{item}</p>
+                  <span className="kasa-collapse-content-show-elements-list"key={index}>{item}<br /></span>
               )
           }) : content
           }

@@ -25,5 +25,3 @@ root.render(
     </Router>
   </React.StrictMode>
 );
-
-//Vérifier l'existence des ID, utiliser hook useNavigate

@@ -9,7 +9,7 @@ function About() {
       <Banner about />
       <div>
         {aboutPageList.map((listItem, index) => (
-          <Collapse title={listItem.title} content={listItem.content} about />
+          <Collapse key={`${listItem}-${index}`} title={listItem.title} content={listItem.content} about />
         ))}
       </div>
     </div>

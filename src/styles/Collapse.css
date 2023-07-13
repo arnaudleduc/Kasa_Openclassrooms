@@ -100,7 +100,7 @@
 .kasa-collapse-content-show {
   background-color: #f6f6f6;
   opacity: 1;
-  max-height: 250px;
+  max-height: 500px;
   visibility: visible;
   margin-bottom: 33px;
   border-radius: 10px;

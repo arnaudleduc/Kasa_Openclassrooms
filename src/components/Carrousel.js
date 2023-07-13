@@ -18,7 +18,7 @@ function Carrousel({ pictures }) {
     const newIndex = isFirstPicture ? pictures.length - 1 : currentIndex - 1
     setCurrentIndex(newIndex)
   }
-  
+
   const goToNextImg = () => {
     const isLastPicture = currentIndex === pictures.length - 1
     const newIndex = isLastPicture ? 0 : currentIndex + 1;

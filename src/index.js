@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import Home from './pages/Home/index';
 import About from './pages/About/index';
 import Header from './components/Header';
@@ -26,4 +25,3 @@ root.render(
   </React.StrictMode>
 );
 
-//Vérifier l'existence des ID, utiliser hook useNavigate
